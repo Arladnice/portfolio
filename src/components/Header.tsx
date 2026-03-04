@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Gamepad2, Menu, X } from "lucide-react";
+import { Code2, Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -35,12 +35,12 @@ export default function Header() {
         >
           <div className="relative">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-cyan-500/30 transition-all duration-300">
-              <Gamepad2 className="w-5 h-5 text-white" />
+              <Code2 className="w-5 h-5 text-white" />
             </div>
             <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-40 blur-lg transition-opacity duration-300" />
           </div>
           <span className="text-xl font-bold text-white tracking-tight">
-            Game<span className="text-cyan-400">Dev</span>
+            Frontend<span className="text-cyan-400">Dev</span>
           </span>
         </a>
 

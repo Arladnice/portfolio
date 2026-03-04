@@ -29,7 +29,7 @@ export default function Hero() {
 
         {/* Title */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tight leading-none mb-6 animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
-          <span className="block">Web Game</span>
+          <span className="block">Frontend</span>
           <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
             Developer
           </span>
@@ -37,8 +37,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="max-w-xl text-lg sm:text-xl text-white/60 font-light mb-12 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-          Создаю увлекательные HTML5/WebGL игры с потрясающей графикой и
-          захватывающим геймплеем
+          Создаю интерактивные веб-интерфейсы, сложные SPA приложения и увлекательные WebGL игры
         </p>
 
         {/* CTA */}

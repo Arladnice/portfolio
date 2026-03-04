@@ -5,6 +5,14 @@ import { Rocket } from "lucide-react";
 
 const projects = [
   {
+    title: "DrawIt Diagram Editor",
+    description:
+      "Мощный редактор диаграмм на базе React Flow. Поддержка кастомных фигур, привязки к сетке, настройки свойств элементов и многого другого. Темная тема и удобный UX.",
+    image: "/drawit.png",
+    liveUrl: "https://arlaantigravity.github.io/drawit/",
+    tags: ["React", "React Flow", "Tailwind CSS", "Zustand"],
+  },
+  {
     title: "Knight's Crash Game",
     description:
       "3D краш-игра с средневековым рыцарем, бегущим по подземелью. Реал-тайм мультиплеер через WebSocket, ставки с множителями и авто-кэшаут. Three.js для 3D-графики.",

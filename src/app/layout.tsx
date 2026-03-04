@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GameDev Portfolio — Web Games & Interactive Experiences",
+  title: "Frontend Portfolio — Web Apps & Interactive Experiences",
   description:
-    "Портфолио разработчика веб-игр. HTML5, WebGL, Three.js, React. Crash игры, головоломки и многое другое.",
+    "Портфолио Frontend-разработчика. Создание сложных веб-приложений (SPA), интерактивных интерфейсов с использованием React, Tailwind, и Three.js.",
 };
 
 export default function RootLayout({
