@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { Code2, Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
+  { label: "Главная", href: "#home" },
+  { label: "Проекты", href: "#projects" },
+  { label: "Контакты", href: "#contact" },
 ];
 
 export default function Header() {

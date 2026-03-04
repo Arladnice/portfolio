@@ -49,7 +49,7 @@ export default function ProjectCard({
             className="flex items-center gap-2 px-6 py-3 rounded-xl bg-white/10 backdrop-blur-xl border border-white/20 text-white font-medium hover:bg-white/20 transition-all duration-200 hover:scale-105"
           >
             <ExternalLink className="w-4 h-4" />
-            Играть
+            Перейти
           </a>
         </div>
       </div>
@@ -87,7 +87,7 @@ export default function ProjectCard({
             className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300 hover:scale-105"
           >
             <ExternalLink className="w-3.5 h-3.5" />
-            Live Demo
+            Открыть
           </a>
           {sourceUrl && (
             <a
@@ -97,7 +97,7 @@ export default function ProjectCard({
               className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white/70 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 hover:text-white transition-all duration-300 hover:scale-105"
             >
               <Github className="w-3.5 h-3.5" />
-              Code
+              Код
             </a>
           )}
         </div>
