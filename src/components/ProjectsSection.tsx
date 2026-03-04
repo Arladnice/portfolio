@@ -2,13 +2,16 @@
 
 import ProjectCard from "./ProjectCard";
 import { Rocket } from "lucide-react";
+import drawitImg from "../../public/drawit.png";
+import crashGameImg from "../../public/crash-game.png";
+import game2048Img from "../../public/2048-game.png";
 
 const projects = [
   {
     title: "DrawIt Diagram Editor",
     description:
       "Мощный редактор диаграмм на базе React Flow. Поддержка кастомных фигур, привязки к сетке, настройки свойств элементов и многого другого. Темная тема и удобный UX.",
-    image: "/drawit.png",
+    image: drawitImg.src,
     liveUrl: "https://arlaantigravity.github.io/drawit/",
     tags: ["React", "React Flow", "Tailwind CSS", "Zustand"],
   },
@@ -16,7 +19,7 @@ const projects = [
     title: "Knight's Crash Game",
     description:
       "3D краш-игра с средневековым рыцарем, бегущим по подземелью. Реал-тайм мультиплеер через WebSocket, ставки с множителями и авто-кэшаут. Three.js для 3D-графики.",
-    image: "/crash-game.png",
+    image: crashGameImg.src,
     liveUrl: "https://crash-game-client.onrender.com/",
     tags: ["React", "Three.js", "WebSocket", "Node.js", "3D"],
   },
@@ -24,7 +27,7 @@ const projects = [
     title: "2048",
     description:
       "Классическая логическая игра 2048 с поддержкой свайпов, клавиатуры и кнопок управления. Анимации плиток, сохранение лучшего результата, адаптивный дизайн.",
-    image: "/2048-game.png",
+    image: game2048Img.src,
     liveUrl: "https://cto-newtest.github.io/2048/",
     tags: ["HTML5", "CSS3", "JavaScript", "Canvas"],
   },

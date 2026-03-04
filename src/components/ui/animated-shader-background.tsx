@@ -95,9 +95,21 @@ const AnimatedShaderBackground = () => {
     scene.add(mesh);
 
     let frameId: number;
+    let isVisible = true;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        isVisible = entry.isIntersecting;
+      },
+      { threshold: 0 }
+    );
+    observer.observe(container);
+
     const animate = () => {
-      material.uniforms.iTime.value += 0.016;
-      renderer.render(scene, camera);
+      if (isVisible) {
+        material.uniforms.iTime.value += 0.016;
+        renderer.render(scene, camera);
+      }
       frameId = requestAnimationFrame(animate);
     };
     animate();
@@ -112,6 +124,7 @@ const AnimatedShaderBackground = () => {
     window.addEventListener("resize", handleResize);
 
     return () => {
+      observer.disconnect();
       cancelAnimationFrame(frameId);
       window.removeEventListener("resize", handleResize);
       if (container.contains(renderer.domElement)) {
