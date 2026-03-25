@@ -1,4 +1,4 @@
-import { Code2, Github, Mail } from "lucide-react";
+import { Code2, Github, Mail, Send } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/cto-newtest"
+              href="https://github.com/Arladnice"
               target="_blank"
               rel="noopener noreferrer"
               className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-110"
@@ -34,10 +34,12 @@ export default function Footer() {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="mailto:contact@gamedev.com"
+              href="https://t.me/waytonine"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-110"
             >
-              <Mail className="w-5 h-5" />
+              <Send className="w-5 h-5" />
             </a>
           </div>
         </div>
