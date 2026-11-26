@@ -112,7 +112,8 @@ const projects: PortfolioProject[] = [
       "Автономный клиентский Demo-симулятор с ботами на случай отсутствия сервера",
     ],
     image: crashGameImg.src,
-    statusNote: "Private Repo · Demo готов в ветке",
+    liveUrl: "https://arladnice.github.io/knights-crash-game/",
+    sourceUrl: "https://github.com/Arladnice/knights-crash-game",
     tags: ["React", "Three.js", "Socket.IO", "TypeScript", "Node.js", "Zustand"],
     architecture: {
       challenge:
