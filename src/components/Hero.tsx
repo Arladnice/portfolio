@@ -37,7 +37,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="max-w-2xl text-base sm:text-xl text-white/65 font-light mb-10 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-          Проектирую высоконагруженные B2B/SaaS-интерфейсы, AI-ассистенты с потоковой генерацией и real-time визуализации на TypeScript, React 19 и Next.js
+          Создаю сложные веб-приложения, промышленные тренажёры с real-time телеметрией и 3D WebGL-визуализации на TypeScript, React 19 и Next.js
         </p>
 
         {/* CTA */}

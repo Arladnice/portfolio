@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Rocket } from "lucide-react";
 import ProjectCard, { type ProjectCardProps } from "./ProjectCard";
-import jobfinderImg from "../../public/jobfinder.png";
 import drawitImg from "../../public/drawit.png";
 import elouImg from "../../public/elou-avt.png";
 import crashGameImg from "../../public/crash-game.png";
@@ -15,39 +14,13 @@ interface PortfolioProject extends Omit<ProjectCardProps, "index"> {
 }
 
 const CATEGORIES: Array<{ id: ProjectCategory; label: string }> = [
-  { id: "all", label: "Все проекты (4)" },
-  { id: "ai", label: "AI & LLM" },
+  { id: "all", label: "Все проекты (3)" },
   { id: "fullstack", label: "Fullstack & Real-time" },
-  { id: "frontend", label: "Графика & Редакторы" },
+  { id: "ai", label: "ML & Промышленный AI" },
+  { id: "frontend", label: "Графика & WebGL" },
 ];
 
 const projects: PortfolioProject[] = [
-  {
-    title: "JobFinder AI",
-    categoryLabel: "AI & Fullstack SaaS",
-    categories: ["ai", "fullstack"],
-    description:
-      "Гибридная платформа анализа вакансий (hh.ru JSON / текст), скоринга соответствия резюме, фильтрации ГПХ/СЗ/ИП и потоковой генерации сопроводительных писем через SSE.",
-    highlights: [
-      "Импорт JSON-выгрузок, расчёт net-оплаты, фильтр стоп-факторов и пробелов стека",
-      "SSE-стриминг писем (OpenAI-compatible backend или автономный браузерный Demo Engine)",
-      "TanStack Table v8 + dnd-kit Kanban-воронка откликов + React Hook Form & Zod",
-    ],
-    image: jobfinderImg.src,
-    liveUrl: "https://arladnice.github.io/jobfinder-ai/",
-    sourceUrl: "https://github.com/Arladnice/jobfinder-ai",
-    tags: ["Next.js 16", "TypeScript", "FSD", "SSE Streaming", "Express", "Docker"],
-    architecture: {
-      challenge:
-        "Автоматизировать разбор десятков вакансий с фильтрацией нерелевантного стека и подготовкой персонализированных откликов без привязки к одному LLM-провайдеру.",
-      solution:
-        "Клиент спроектирован по Feature-Sliced Design с общими Zod-контрактами и единым алгоритмом скоринга для браузера и Node.js/Express SSE-сервера. На GitHub Pages работает автономный Demo Mode, а локально/в Docker — полноценный API.",
-      stackDetails:
-        "Next.js 16 (App Router, Static Export), React 19, TypeScript strict, Zustand, TanStack Query & Table, @dnd-kit, Express SSE + JSON persistence.",
-      testsAndDeploy:
-        "Unit-тесты на Vitest, E2E сценарий на Playwright (Chromium), многоконтейнерный Docker Compose и CI/CD на GitHub Pages.",
-    },
-  },
   {
     title: "DrawIt Diagram Editor",
     categoryLabel: "Visual Editor & Graphs",
@@ -165,7 +138,7 @@ export default function ProjectsSection() {
             </span>
           </h2>
           <p className="max-w-2xl mx-auto text-base sm:text-lg text-white/45 mb-8">
-            Реальные fullstack- и frontend-системы: от AI-сервисов с SSE и визуальных редакторов до промышленных симуляторов и 3D WebGL
+            Прикладные fullstack- и frontend-системы: промышленный тренажёр с ML и WebSocket, редактор диаграмм на React Flow и 3D WebGL-игра
           </p>
 
           {/* Filter Pills */}

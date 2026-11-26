@@ -6,7 +6,7 @@ const highlights = [
     metric: "4+ года",
     title: "Коммерческая разработка",
     description:
-      "Финтех и высоконагруженные enterprise-системы: React, Next.js, TypeScript и продуктовый fullstack.",
+      "Финтех и высоконагруженные enterprise-системы: геовизуализация, сложные формы, дашборды и B2B-интерфейсы.",
   },
   {
     icon: Layers,
@@ -17,36 +17,36 @@ const highlights = [
   },
   {
     icon: Cpu,
-    metric: "AI & Real-time",
-    title: "SSE-стриминг и WebSocket",
+    metric: "3D & Real-time",
+    title: "WebSocket, WebGL и ML",
     description:
-      "Интеграция LLM-пайплайнов, потоковые ответы, 1s-телеметрия промышленных установок и 3D-графика.",
+      "1s-телеметрия промышленных установок, Three.js / R3F, визуальные редакторы на React Flow и ONNX-инференс.",
   },
   {
     icon: ShieldCheck,
     metric: "QA & DevOps",
     title: "Надёжность и автотесты",
     description:
-      "Unit и E2E покрытие на Vitest и Playwright, Docker Compose и автоматический CI/CD через GitHub Actions.",
+      "Unit и E2E покрытие на Vitest и Playwright, Docker и автоматический CI/CD через GitHub Actions.",
   },
 ];
 
 const stackGroups = [
   {
     title: "Frontend Core",
-    items: ["React 19", "Next.js (App Router)", "TypeScript (strict)", "Tailwind CSS v4", "Zustand / Redux Toolkit"],
+    items: ["React 19", "Next.js 15", "TypeScript (strict)", "Tailwind CSS v4", "Zustand / Redux Toolkit"],
   },
   {
     title: "Data & Forms",
-    items: ["TanStack Query v5", "TanStack Table v8", "React Hook Form", "Zod", "dnd-kit"],
+    items: ["TanStack Query", "React Hook Form", "Zod", "Ant Design", "styled-components"],
   },
   {
     title: "Backend & Realtime",
-    items: ["Node.js / Express", "Python / FastAPI", "SSE & WebSocket / Socket.IO", "REST API / OpenAPI", "Docker"],
+    items: ["Python / FastAPI", "WebSocket / Socket.IO", "SignalR", "Node.js", "REST API / OpenAPI"],
   },
   {
     title: "Графика и QA",
-    items: ["React Flow", "Three.js / R3F", "Recharts", "Vitest / Testing Library", "Playwright E2E"],
+    items: ["React Flow", "Three.js / R3F", "ONNX Runtime / Recharts", "Vitest / Testing Library", "Playwright E2E"],
   },
 ];
 
