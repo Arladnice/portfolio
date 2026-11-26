@@ -5,6 +5,7 @@ import { Code2, Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "Главная", href: "#home" },
+  { label: "Опыт и стек", href: "#about" },
   { label: "Проекты", href: "#projects" },
   { label: "Контакты", href: "#contact" },
 ];
@@ -40,7 +41,7 @@ export default function Header() {
             <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-40 blur-lg transition-opacity duration-300" />
           </div>
           <span className="text-xl font-bold text-white tracking-tight">
-            Frontend<span className="text-cyan-400">Dev</span>
+            Arladnice<span className="text-cyan-400">.dev</span>
           </span>
         </a>
 

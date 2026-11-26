@@ -1,4 +1,4 @@
-import { Code2, Github, Mail, Send } from "lucide-react";
+import { Code2, Github, Send } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,11 +15,11 @@ export default function Footer() {
                 <Code2 className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold text-white tracking-tight">
-                Frontend<span className="text-cyan-400">Dev</span>
+                Arladnice<span className="text-cyan-400">.dev</span>
               </span>
             </div>
-            <p className="text-white/40 text-sm text-center md:text-left max-w-xs">
-              Создаю современные интерактивные веб-интерфейсы от концепции до релиза
+            <p className="text-white/45 text-sm text-center md:text-left max-w-md">
+              Денис Арлаков · Frontend &amp; Fullstack TypeScript Engineer. Открыт к удалённым проектам (СЗ / ИП / ГПХ / ТК).
             </p>
           </div>
 
@@ -29,25 +29,29 @@ export default function Footer() {
               href="https://github.com/Arladnice"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-110"
+              aria-label="GitHub Arladnice"
+              className="inline-flex items-center gap-2 px-4 h-11 rounded-xl bg-white/5 border border-white/10 text-white/70 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300"
             >
-              <Github className="w-5 h-5" />
+              <Github className="w-4 h-4" />
+              <span className="text-sm font-medium">GitHub</span>
             </a>
             <a
               href="https://t.me/waytonine"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-110"
+              aria-label="Telegram"
+              className="inline-flex items-center gap-2 px-4 h-11 rounded-xl bg-cyan-500/10 border border-cyan-500/25 text-cyan-300 hover:bg-cyan-500/20 hover:text-white transition-all duration-300"
             >
-              <Send className="w-5 h-5" />
+              <Send className="w-4 h-4" />
+              <span className="text-sm font-medium">Telegram</span>
             </a>
           </div>
         </div>
 
         {/* Divider */}
         <div className="mt-12 pt-8 border-t border-white/5 text-center">
-          <p className="text-white/20 text-sm">
-            © {new Date().getFullYear()} FrontendDev Portfolio. All rights reserved.
+          <p className="text-white/25 text-sm">
+            © {new Date().getFullYear()} Денис Арлаков (Arladnice). Next.js · TypeScript · Tailwind CSS.
           </p>
         </div>
       </div>

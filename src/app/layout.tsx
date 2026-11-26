@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Frontend Portfolio — Web Apps & Interactive Experiences",
+  title: "Денис Арлаков — Frontend & Fullstack TypeScript Engineer",
   description:
-    "Портфолио Frontend-разработчика. Создание сложных веб-приложений (SPA), интерактивных интерфейсов с использованием React, Tailwind, и Three.js.",
+    "Портфолио Frontend / Fullstack TypeScript-разработчика: Next.js App Router, React 19, AI/LLM streaming, FSD, WebSocket/Three.js, TanStack, Playwright E2E.",
 };
 
 export default function RootLayout({
